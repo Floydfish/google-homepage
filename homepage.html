@@ -6,11 +6,17 @@
         Google
     </title>
     <link rel="icon" type="image/png" sizes="10x10" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+    <link rel="stylesheet" href="csshomepage.css">
 </head>
 
 <body>
     <!--Top line with Gmail link etc-->
-    <div>
+    <div class="top">
+        <div>
+            <span><a class="link" href="https://mail.google.com/mail/?tab=wm">Gmail</a></span>
+            <span><a class="link" href="https://www.google.com.br/imqhp?hl=en&tab=wi">Images</a></span>
+            <a class="grid" href="https://www.google.com.br/intl/en/about/products?tab=wh" title="Google Apps" role="button" tabindex="0">grade</a>
+        </div> 
 
     </div>
 
@@ -23,8 +29,9 @@
 
     <!--Form-->
     <div>
-        <input maxlength="2048">
-
+        <center>
+        <input maxlength="2048" name="q" type="text" title="Search">
+        </center>
     </div>
 
     <!-- Buttons -->
@@ -35,7 +42,17 @@
         </center>
     </div>
 
-    <!-- Text about region language -->
+    <!-- Text abo   ut region language -->
+    <div class=footer>
+        <div>
+        <span id="br">Brazil</span>
+        </div>
+        <span>
+            <a class="bottom" href="">Advertising</a>
+        </span>
+        <a class="bottom" href="">Business</a>
+        <a class="bottom" href="">About</a>
+    </div>
 </body>
 
 </html>

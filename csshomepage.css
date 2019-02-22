@@ -1,0 +1,47 @@
+a {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+.bottom {
+    color: rgba(0,0,0,.54);
+}
+
+#br {
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    line-height: 40px;
+    font-family: arial, sans-serif;
+}
+
+.top {
+    color: rgba(0, 0, 0, 0); 
+        font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.top a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    color: rgb(95, 99, 104);
+    font-size: 20px;
+    padding-left: 27px;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+    margin: 0;
+    padding-left: 27px;
+    text-decoration-style: solid;
+    white-space: nowrap;
+ }
+
+ .footer a:hover {
+     text-decoration: underline;
+ }
