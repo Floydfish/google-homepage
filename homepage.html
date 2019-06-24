@@ -7,6 +7,13 @@
     </title>
     <link rel="icon" type="image/png" sizes="10x10" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
     <link rel="stylesheet" href="csshomepage.css">
+    <script type="text/javascript">
+       function buscar(){ 
+        texto="txt do user";
+        alert(texto);
+       }
+       //https://www.google.com/searchq=<busca>}
+    </script>
 </head>
 
 <body>
@@ -30,14 +37,14 @@
     <!--Form-->
     <div>
         <center>
-        <input maxlength="2048" name="q" type="text" title="Search">
+        <input maxlength="2048" name="q" type="text" title="Search" >
         </center>
     </div>
 
     <!-- Buttons -->
     <div>
         <center>
-        <input value="Google Search" name="GS" type="submit">
+        <input value="Google Search" name="GS" type="submit" onclick="buscar()">
         <input value="I'm Feeling Lucky" name="lucky" type="submit">
         </center>
     </div>
