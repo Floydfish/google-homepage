@@ -110,8 +110,24 @@ white-space: nowrap;
 }
 
 .midbar {
-    height: 233px;
-    margin-top: 89px;
+    
+    margin-bottom: 30px;
     text-align: center;
-    display: inline-block;
+    color: rgb(34, 34, 34);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-top: 150px;
+}
+
+input{
+    border-radius: 15px;
+    height: 15px;
+    font-size: 16px;
+    font-size-adjust: none;
+    font-stretch: 100%;
+}
+
+.searchbar {
+    text-align: center;
+    height: 15px;
 }
