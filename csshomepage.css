@@ -28,9 +28,14 @@ a {
     text-decoration: underline;
 }
 
-.footer {
+.footer1 {
+    background-color: rgba(0,0,0,.2);
     color: rgb(95, 99, 104);
-    font-size: 20px;
+    text-decoration-color: rgb(95, 99, 104);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    display: inline-block;
+    font-size: 23px;
     padding-left: 27px;
     margin: 0;
     font-family: arial, sans-serif;
@@ -40,8 +45,74 @@ a {
     padding-left: 27px;
     text-decoration-style: solid;
     white-space: nowrap;
+    visibility: visible;
+    white-space: nowrap;
  }
 
  .footer a:hover {
      text-decoration: underline;
+ }
+
+ .busca {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0.87);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(0, 0, 0, 0.87);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgba(0, 0, 0, 0.87);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgba(0, 0, 0, 0.87);
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: arial, sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-size-adjust: none;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 400;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -37px;
+    outline-color: rgba(0, 0, 0, 0.87);
+    outline-style: none;
+    outline-width: 0px;
+    overflow-wrap: break-word;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    
+ }
+
+ .butons {
+     background-color: rgba(0,0,0,.2);
  }
